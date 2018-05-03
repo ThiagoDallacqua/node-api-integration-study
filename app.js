@@ -6,5 +6,5 @@ app.listen(port, function() {
 });
 
 app.get('/', function(req, res) {
-  res.status(302).redirect('https://github.com/whitesmith/party-finder-api-prototype/blob/master/README.md');
+  res.status(302).redirect('https://github.com/ThiagoDallacqua/node-api-integration-study/blob/master/README.md');
 });
